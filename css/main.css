@@ -18,16 +18,13 @@ header {
   height: 650px;
   background-image: url(../pics/header-bkg.jpg);
   background-size: cover;
- 
 }
-.dark{
+.dark {
   width: 100%;
   height: 650px;
-  background-color:rgba(0,0,0,0.3);
+  background-color: rgba(0, 0, 0, 0.3);
   position: absolute;
   top: 0;
-  
-  
 }
 .brand-font {
   font-size: 60px;
@@ -37,8 +34,7 @@ header {
   padding: 5px;
   font-weight: bold;
   position: relative;
-    z-index: 2;
- 
+  z-index: 2;
 }
 .land-text {
   font-size: 32px;
@@ -47,9 +43,8 @@ header {
   padding: 10px;
   margin-top: 50px;
   width: 100%;
-    z-index: 2;
-    position: relative;
-    
+  z-index: 2;
+  position: relative;
 }
 
 nav {
@@ -66,7 +61,7 @@ nav {
   height: 38px;
   display: flex;
   align-items: center;
-    z-index: 2;
+  z-index: 2;
 }
 ul {
   display: flex;
@@ -84,7 +79,7 @@ ul {
 nav ul li a {
   font-size: 20px;
   color: white;
-  text-decoration:none;
+  text-decoration: none;
 }
 .header-input-div {
   background-color: rgba(99, 78, 14, 0.51);
@@ -100,7 +95,7 @@ nav ul li a {
   left: 50%;
   bottom: 90px;
   transform: translateX(-50%);
-    z-index: 2;
+  z-index: 2;
 }
 #header-search {
   background-color: transparent;
@@ -137,6 +132,7 @@ main {
   display: flex;
   justify-content: space-between;
   margin: 10px 0;
+  max-width: 1100px;
 }
 
 .label-card h3 {
@@ -162,10 +158,12 @@ footer {
   display: grid;
   grid-template-columns: 1.5fr 1fr;
   gap: 1rem;
+  max-width: 1100px;
   margin-bottom: 15px;
 }
 .rev {
   width: 90%;
+  max-width: 1100px;
   display: grid;
   grid-template-columns: 1fr 1.5fr;
   gap: 1rem;
@@ -215,7 +213,7 @@ footer {
 .pic-slider {
   width: 90%;
   padding: 23px 10px;
-
+  max-width: 1100px;
   display: flex;
   justify-content: center;
   align-items: center;
