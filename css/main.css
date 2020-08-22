@@ -141,13 +141,15 @@ footer {
   width: 90%;
   display: grid;
   grid-template-columns: 1.5fr 1fr;
+  gap: 1rem;
+  margin-bottom: 15px;
 }
 .rev {
   width: 90%;
   display: grid;
   grid-template-columns: 1fr 1.5fr;
-  /* gap: 1rem;
-  margin-bottom: 15px; */
+  gap: 1rem;
+  margin-bottom: 15px;
 }
 .sec-text:hover {
   box-shadow: 5px 0px 20px rgba(140, 140, 140, 0.5);
