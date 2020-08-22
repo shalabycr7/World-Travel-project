@@ -170,7 +170,9 @@ footer {
   margin-bottom: 15px;
 }
 .sec-text:hover {
-  box-shadow: 5px 0px 20px rgba(140, 140, 140, 0.5);
+  animation: pulse; 
+  /* referring directly to the animation's @keyframe declaration */ 
+  animation-duration: 2s
 }
 
 .main-sec img {
