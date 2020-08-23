@@ -9,8 +9,6 @@ body {
   display: flex;
   flex-direction: column;
   font-family: "PT Sans", sans-serif;
-  -webkit-font-smoothing: antialiased;
-  text-rendering: optimizeLegibility;
 }
 header {
   position: relative;
@@ -52,10 +50,8 @@ nav {
   position: absolute;
   top: 30px;
   right: 2%;
+  border: 2px solid rgba(255, 255, 255, 1);
   border-radius: 15px;
-  border-width: 2px;
-  border-color: rgba(255, 255, 255, 0.49);
-  border-style: solid;
   padding: 0px 16px;
   width: 320px;
   height: 38px;
@@ -88,9 +84,7 @@ li a:hover {
 .header-input-div {
   background-color: rgba(99, 78, 14, 0.51);
   border-radius: 10px;
-  border-width: 3px;
-  border-color: rgb(255, 255, 255);
-  border-style: solid;
+  border: 3px solid rgba(255, 255, 255, 1);
   padding: 5px 15px;
   width: 80%;
   max-width: 500px;
@@ -103,8 +97,6 @@ li a:hover {
 }
 #header-search {
   background-color: transparent;
-  border-color: rgb(140, 140, 140);
-  border-width: 0px;
   color: rgb(255, 255, 255);
   padding: 0px 12px;
   text-align: left;
@@ -112,10 +104,10 @@ li a:hover {
   font-size: 26px;
   font-weight: normal;
   font-style: normal;
-  border-style: solid;
   width: 100%;
   height: 100%;
   outline: none;
+  border: none;
 }
 main {
   display: flex;
@@ -129,7 +121,6 @@ main {
   font-style: normal;
   font-weight: normal;
   line-height: normal;
-  text-transform: none;
   height: 140px;
   width: 90%;
   align-items: center;
@@ -203,19 +194,16 @@ footer {
   font-style: normal;
   font-weight: normal;
   line-height: 48px;
-  --paragraph: 0px;
   text-align: center;
   text-transform: none;
 }
 .sec-text p {
   font-size: 25px;
   color: rgb(66, 66, 66);
-  font-feature-settings: "liga" 0;
   font-style: normal;
   font-weight: normal;
   letter-spacing: 5px;
   line-height: 32px;
-  --paragraph: 0px;
   text-align: center;
 }
 .pic-slider {
@@ -256,7 +244,7 @@ footer {
     height: 125px;
     transform: scale(0.9);
 
-    width: 100%;
+    
   }
   .header-input-div {
     height: 50px;
@@ -266,12 +254,14 @@ footer {
     grid-template-rows: 0.5fr 0.5fr;
     width: 100%;
     transform: scale(0.9);
+   
   }
   .rev {
     grid-template-columns: 1fr;
     grid-template-rows: 0.5fr 0.5fr;
     width: 100%;
     transform: scale(0.9);
+    
   }
 
   .img-container {
