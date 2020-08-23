@@ -76,10 +76,14 @@ ul {
   justify-content: space-around;
   list-style-type: none;
 }
-nav ul li a {
+li a {
   font-size: 20px;
   color: white;
   text-decoration: none;
+  opacity: 0.7;
+}
+li a:hover {
+  opacity: 1;
 }
 .header-input-div {
   background-color: rgba(99, 78, 14, 0.51);
@@ -156,23 +160,25 @@ footer {
 .main-sec:not(.rev) {
   width: 90%;
   display: grid;
-  grid-template-columns: 1.5fr 1fr;
+  grid-template-columns: 1.8fr 1fr;
+  grid-template-rows: 340px;
   gap: 1rem;
-  max-width: 1100px;
+  max-width: 1000px;
   margin-bottom: 15px;
 }
 .rev {
   width: 90%;
-  max-width: 1100px;
+  max-width: 1000px;
   display: grid;
-  grid-template-columns: 1fr 1.5fr;
+  grid-template-columns: 1fr 1.8fr;
   gap: 1rem;
   margin-bottom: 15px;
+  grid-template-rows: 340px;
 }
 .sec-text:hover {
-  animation: pulse; 
-  /* referring directly to the animation's @keyframe declaration */ 
-  animation-duration: 2s
+  animation: pulse;
+  /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s;
 }
 
 .main-sec img {
@@ -238,6 +244,22 @@ footer {
   margin: 0 10px;
   display: inline-block;
 }
+
+::placeholder {
+   color: red;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: red;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: red;
+}
+
 @media only screen and (max-width: 550px) {
   nav {
     right: 50%;
