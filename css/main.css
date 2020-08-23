@@ -245,20 +245,7 @@ footer {
   display: inline-block;
 }
 
-::placeholder {
-   color: red;
-  opacity: 1; /* Firefox */
-}
 
-:-ms-input-placeholder {
-  /* Internet Explorer 10-11 */
-  color: red;
-}
-
-::-ms-input-placeholder {
-  /* Microsoft Edge */
-  color: red;
-}
 
 @media only screen and (max-width: 550px) {
   nav {
@@ -303,4 +290,10 @@ footer {
     width: 180px;
     
   }*/
+  header{
+    height: 100vh;
+  }
+  .dark{
+    height: 100vh;
+  }
 }
