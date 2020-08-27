@@ -251,8 +251,8 @@ footer h4 {
   color: rgba(0, 0, 0, 0.7);
   right: 10px;
   z-index: 3;
-  bottom: 20px;
-  padding: 10px 20px;
+  bottom: 40px;
+  padding: 10px 15px;
   background-color: rgba(212, 208, 199, 0.31);
   border: none;
   outline: none;
@@ -306,8 +306,8 @@ footer h4 {
     width: 180px;
     
   }*/
-  #top-bu{
+ /* #top-bu{
      padding: 5px 10px;
      font-size: 20px;
-  }
+  }*/
 }
