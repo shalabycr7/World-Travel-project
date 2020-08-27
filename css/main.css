@@ -109,6 +109,12 @@ li a:hover {
   outline: none;
   border: none;
 }
+::placeholder{
+   color: white;
+}
+::-moz-placeholder{
+   color: white;
+}
 main {
   display: flex;
   flex-direction: column;
